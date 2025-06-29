@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f892a4ba589bf8b225a94ea068ee2a7d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f892a4ba589bf8b225a94ea068ee2a7d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f892a4ba589bf8b225a94ea068ee2a7d = L.map(
+                "map_f892a4ba589bf8b225a94ea068ee2a7d",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_158ccc0830f849535afb5d6344cc1b42 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f892a4ba589bf8b225a94ea068ee2a7d);
+        
+    
+            var marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a = L.markerClusterGroup(
+                {}
+            );
+            map_f892a4ba589bf8b225a94ea068ee2a7d.addLayer(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+            var marker_354159c943d43b79c4f27c261ce2967f = L.marker(
+                [36.75, 3.04],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_c9d1f0448f839dd5e6decf330f2ae6ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de7b0a4cd4d0ad59fbd069c5b8089b1a = $(`<div id="html_de7b0a4cd4d0ad59fbd069c5b8089b1a" style="width: 100.0%; height: 100.0%;"><b>Frantz Fanon</b><br>Martinica/Argélia</div>`)[0];
+            popup_c9d1f0448f839dd5e6decf330f2ae6ab.setContent(html_de7b0a4cd4d0ad59fbd069c5b8089b1a);
+        
+
+        marker_354159c943d43b79c4f27c261ce2967f.bindPopup(popup_c9d1f0448f839dd5e6decf330f2ae6ab)
+        ;
+
+        
+    
+    
+            marker_354159c943d43b79c4f27c261ce2967f.bindTooltip(
+                `<div>
+                     Frantz Fanon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31155560ae74dd3e9b29c128dd00a403 = L.marker(
+                [11.86, -15.6],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_a86e66387d9a2fe4b2fbd892092fa310 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe464052be663c34014ea4855d4eecd6 = $(`<div id="html_fe464052be663c34014ea4855d4eecd6" style="width: 100.0%; height: 100.0%;"><b>Amílcar Cabral</b><br>Guiné-Bissau</div>`)[0];
+            popup_a86e66387d9a2fe4b2fbd892092fa310.setContent(html_fe464052be663c34014ea4855d4eecd6);
+        
+
+        marker_31155560ae74dd3e9b29c128dd00a403.bindPopup(popup_a86e66387d9a2fe4b2fbd892092fa310)
+        ;
+
+        
+    
+    
+            marker_31155560ae74dd3e9b29c128dd00a403.bindTooltip(
+                `<div>
+                     Amílcar Cabral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97adb3d5e9990e58113c8ec111f93f6b = L.marker(
+                [3.87, 11.52],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_69a96b7ecc486df94aaa853ae14c76ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8978355423ac56588619853c235c2c80 = $(`<div id="html_8978355423ac56588619853c235c2c80" style="width: 100.0%; height: 100.0%;"><b>Achille Mbembe</b><br>Camarões</div>`)[0];
+            popup_69a96b7ecc486df94aaa853ae14c76ed.setContent(html_8978355423ac56588619853c235c2c80);
+        
+
+        marker_97adb3d5e9990e58113c8ec111f93f6b.bindPopup(popup_69a96b7ecc486df94aaa853ae14c76ed)
+        ;
+
+        
+    
+    
+            marker_97adb3d5e9990e58113c8ec111f93f6b.bindTooltip(
+                `<div>
+                     Achille Mbembe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c07ee43e7ae0e86ae060de96e5d5fe75 = L.marker(
+                [-1.29, 36.82],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_ddb7a6880b8dfca0e2cb17f9a0be7d39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ec2688598d362408b85b59310dc8796 = $(`<div id="html_6ec2688598d362408b85b59310dc8796" style="width: 100.0%; height: 100.0%;"><b>Ngũgĩ wa Thiong’o</b><br>Quênia</div>`)[0];
+            popup_ddb7a6880b8dfca0e2cb17f9a0be7d39.setContent(html_6ec2688598d362408b85b59310dc8796);
+        
+
+        marker_c07ee43e7ae0e86ae060de96e5d5fe75.bindPopup(popup_ddb7a6880b8dfca0e2cb17f9a0be7d39)
+        ;
+
+        
+    
+    
+            marker_c07ee43e7ae0e86ae060de96e5d5fe75.bindTooltip(
+                `<div>
+                     Ngũgĩ wa Thiong’o
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f518000aeadac014d8d30fb677909b36 = L.marker(
+                [9.08, 8.67],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_441d11ccac9e382c2cfd9de9e9481e1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92c832d8c118e3f27940890ec4a2a4db = $(`<div id="html_92c832d8c118e3f27940890ec4a2a4db" style="width: 100.0%; height: 100.0%;"><b>Oyeronke Oyewumi</b><br>Nigéria</div>`)[0];
+            popup_441d11ccac9e382c2cfd9de9e9481e1b.setContent(html_92c832d8c118e3f27940890ec4a2a4db);
+        
+
+        marker_f518000aeadac014d8d30fb677909b36.bindPopup(popup_441d11ccac9e382c2cfd9de9e9481e1b)
+        ;
+
+        
+    
+    
+            marker_f518000aeadac014d8d30fb677909b36.bindTooltip(
+                `<div>
+                     Oyeronke Oyewumi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acb56dd7eed4ffe703f5f93fe9803aed = L.marker(
+                [-25.96, 32.58],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_a7660159421345140a4398d73edf7f3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88dac7cd46b83253ab0106c78803f8b9 = $(`<div id="html_88dac7cd46b83253ab0106c78803f8b9" style="width: 100.0%; height: 100.0%;"><b>José Paulino Castiano</b><br>Moçambique</div>`)[0];
+            popup_a7660159421345140a4398d73edf7f3f.setContent(html_88dac7cd46b83253ab0106c78803f8b9);
+        
+
+        marker_acb56dd7eed4ffe703f5f93fe9803aed.bindPopup(popup_a7660159421345140a4398d73edf7f3f)
+        ;
+
+        
+    
+    
+            marker_acb56dd7eed4ffe703f5f93fe9803aed.bindTooltip(
+                `<div>
+                     José Paulino Castiano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89c9902b0caad8197785d0ce46147306 = L.marker(
+                [-8.84, 13.23],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_866469cb12d38b4b05662b42f003d934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae6f2b2beebea5bbab72f979b183b553 = $(`<div id="html_ae6f2b2beebea5bbab72f979b183b553" style="width: 100.0%; height: 100.0%;"><b>José Eduardo Agualusa</b><br>Angola</div>`)[0];
+            popup_866469cb12d38b4b05662b42f003d934.setContent(html_ae6f2b2beebea5bbab72f979b183b553);
+        
+
+        marker_89c9902b0caad8197785d0ce46147306.bindPopup(popup_866469cb12d38b4b05662b42f003d934)
+        ;
+
+        
+    
+    
+            marker_89c9902b0caad8197785d0ce46147306.bindTooltip(
+                `<div>
+                     José Eduardo Agualusa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_512fe42b477f3293fd9216a7ce5837fa = L.marker(
+                [5.56, -0.2],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_5d2bb820320e05fb507f2c6dd4ca4c18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcc7159c5b588af8f3d8450989399796 = $(`<div id="html_bcc7159c5b588af8f3d8450989399796" style="width: 100.0%; height: 100.0%;"><b>Kwame Anthony Appiah</b><br>Gana/Reino Unido</div>`)[0];
+            popup_5d2bb820320e05fb507f2c6dd4ca4c18.setContent(html_bcc7159c5b588af8f3d8450989399796);
+        
+
+        marker_512fe42b477f3293fd9216a7ce5837fa.bindPopup(popup_5d2bb820320e05fb507f2c6dd4ca4c18)
+        ;
+
+        
+    
+    
+            marker_512fe42b477f3293fd9216a7ce5837fa.bindTooltip(
+                `<div>
+                     Kwame Anthony Appiah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fd913308c21e292c13a52aa5cda0a4c = L.marker(
+                [-12.04, -77.03],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_691e3f9afdf9c3149f2612b95ba26988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6046484293b16b995286139818fb6ec2 = $(`<div id="html_6046484293b16b995286139818fb6ec2" style="width: 100.0%; height: 100.0%;"><b>Aníbal Quijano</b><br>Peru</div>`)[0];
+            popup_691e3f9afdf9c3149f2612b95ba26988.setContent(html_6046484293b16b995286139818fb6ec2);
+        
+
+        marker_3fd913308c21e292c13a52aa5cda0a4c.bindPopup(popup_691e3f9afdf9c3149f2612b95ba26988)
+        ;
+
+        
+    
+    
+            marker_3fd913308c21e292c13a52aa5cda0a4c.bindTooltip(
+                `<div>
+                     Aníbal Quijano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b76ea262f5eed96bc3990cdef1551c17 = L.marker(
+                [-34.61, -58.38],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_557c7e20806e8d77700038a57d573b95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4825bdf0d37538bc18b3369988fcdfc5 = $(`<div id="html_4825bdf0d37538bc18b3369988fcdfc5" style="width: 100.0%; height: 100.0%;"><b>Walter Mignolo</b><br>Argentina</div>`)[0];
+            popup_557c7e20806e8d77700038a57d573b95.setContent(html_4825bdf0d37538bc18b3369988fcdfc5);
+        
+
+        marker_b76ea262f5eed96bc3990cdef1551c17.bindPopup(popup_557c7e20806e8d77700038a57d573b95)
+        ;
+
+        
+    
+    
+            marker_b76ea262f5eed96bc3990cdef1551c17.bindTooltip(
+                `<div>
+                     Walter Mignolo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b874dc664166eec726f41857d84dfd48 = L.marker(
+                [18.22, -66.59],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_daeca764005b728f86a2f6cb3fd45ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e589019e1457c6db5849404acd2081cb = $(`<div id="html_e589019e1457c6db5849404acd2081cb" style="width: 100.0%; height: 100.0%;"><b>Ramón Grosfoguel</b><br>Porto Rico</div>`)[0];
+            popup_daeca764005b728f86a2f6cb3fd45ef8.setContent(html_e589019e1457c6db5849404acd2081cb);
+        
+
+        marker_b874dc664166eec726f41857d84dfd48.bindPopup(popup_daeca764005b728f86a2f6cb3fd45ef8)
+        ;
+
+        
+    
+    
+            marker_b874dc664166eec726f41857d84dfd48.bindTooltip(
+                `<div>
+                     Ramón Grosfoguel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_095b051680920154f83b65484875855f = L.marker(
+                [-0.23, -78.52],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_b3da15c3532228eee2dfbcef0fd92653 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8cf9c958175611ea114873819ae4966 = $(`<div id="html_b8cf9c958175611ea114873819ae4966" style="width: 100.0%; height: 100.0%;"><b>Catherine Walsh</b><br>Equador</div>`)[0];
+            popup_b3da15c3532228eee2dfbcef0fd92653.setContent(html_b8cf9c958175611ea114873819ae4966);
+        
+
+        marker_095b051680920154f83b65484875855f.bindPopup(popup_b3da15c3532228eee2dfbcef0fd92653)
+        ;
+
+        
+    
+    
+            marker_095b051680920154f83b65484875855f.bindTooltip(
+                `<div>
+                     Catherine Walsh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45eb1a8c4afbafaba2fd2e86cd714927 = L.marker(
+                [-38.0, -57.55],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_cd4b764b45d6be63420ff3ad396f8a7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fd49452208ba56d2dfe352dec810c8d = $(`<div id="html_2fd49452208ba56d2dfe352dec810c8d" style="width: 100.0%; height: 100.0%;"><b>María Lugones</b><br>Argentina/EUA</div>`)[0];
+            popup_cd4b764b45d6be63420ff3ad396f8a7c.setContent(html_2fd49452208ba56d2dfe352dec810c8d);
+        
+
+        marker_45eb1a8c4afbafaba2fd2e86cd714927.bindPopup(popup_cd4b764b45d6be63420ff3ad396f8a7c)
+        ;
+
+        
+    
+    
+            marker_45eb1a8c4afbafaba2fd2e86cd714927.bindTooltip(
+                `<div>
+                     María Lugones
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fe66e09120539ef9388fc90308371c2 = L.marker(
+                [4.61, -74.08],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_5c6af5488af6ff41a5f141f82cc06d20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a498379bbc2bdf1a6bc8b08280059c64 = $(`<div id="html_a498379bbc2bdf1a6bc8b08280059c64" style="width: 100.0%; height: 100.0%;"><b>Orlando Fals Borda</b><br>Colômbia</div>`)[0];
+            popup_5c6af5488af6ff41a5f141f82cc06d20.setContent(html_a498379bbc2bdf1a6bc8b08280059c64);
+        
+
+        marker_5fe66e09120539ef9388fc90308371c2.bindPopup(popup_5c6af5488af6ff41a5f141f82cc06d20)
+        ;
+
+        
+    
+    
+            marker_5fe66e09120539ef9388fc90308371c2.bindTooltip(
+                `<div>
+                     Orlando Fals Borda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93282663b384ea6c1af53db6c2059b78 = L.marker(
+                [-22.91, -43.17],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_ba7d84407e443d7525fa3213c300de42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_839cda3f957c773838470e585c87455a = $(`<div id="html_839cda3f957c773838470e585c87455a" style="width: 100.0%; height: 100.0%;"><b>Raimundo Barreto</b><br>Brasil</div>`)[0];
+            popup_ba7d84407e443d7525fa3213c300de42.setContent(html_839cda3f957c773838470e585c87455a);
+        
+
+        marker_93282663b384ea6c1af53db6c2059b78.bindPopup(popup_ba7d84407e443d7525fa3213c300de42)
+        ;
+
+        
+    
+    
+            marker_93282663b384ea6c1af53db6c2059b78.bindTooltip(
+                `<div>
+                     Raimundo Barreto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73286cb3d2c49070ddcbe28c11508519 = L.marker(
+                [-34.61, -58.38],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_6415d7b731679bc997cedc8ac04458a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2baa702a78d10ba181135d9103acde1 = $(`<div id="html_f2baa702a78d10ba181135d9103acde1" style="width: 100.0%; height: 100.0%;"><b>Verónica Gago</b><br>Argentina</div>`)[0];
+            popup_6415d7b731679bc997cedc8ac04458a6.setContent(html_f2baa702a78d10ba181135d9103acde1);
+        
+
+        marker_73286cb3d2c49070ddcbe28c11508519.bindPopup(popup_6415d7b731679bc997cedc8ac04458a6)
+        ;
+
+        
+    
+    
+            marker_73286cb3d2c49070ddcbe28c11508519.bindTooltip(
+                `<div>
+                     Verónica Gago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fe242e6c02f55397a247c4800814c04 = L.marker(
+                [10.69, -61.22],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_6618d6724bcdab9b485c38735b101a96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31c580c51eae079cd5ec8c030dd5696c = $(`<div id="html_31c580c51eae079cd5ec8c030dd5696c" style="width: 100.0%; height: 100.0%;"><b>Eric Williams</b><br>Trindade e Tobago</div>`)[0];
+            popup_6618d6724bcdab9b485c38735b101a96.setContent(html_31c580c51eae079cd5ec8c030dd5696c);
+        
+
+        marker_5fe242e6c02f55397a247c4800814c04.bindPopup(popup_6618d6724bcdab9b485c38735b101a96)
+        ;
+
+        
+    
+    
+            marker_5fe242e6c02f55397a247c4800814c04.bindTooltip(
+                `<div>
+                     Eric Williams
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aefd20cfcf0bcae445bdb9c8f1c6f9a3 = L.marker(
+                [10.69, -61.22],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_7f3a4855988f99a381e35b8ad73671a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69399c506381aea256ff27d98ee68f5a = $(`<div id="html_69399c506381aea256ff27d98ee68f5a" style="width: 100.0%; height: 100.0%;"><b>C.L.R. James</b><br>Trindade e Tobago</div>`)[0];
+            popup_7f3a4855988f99a381e35b8ad73671a2.setContent(html_69399c506381aea256ff27d98ee68f5a);
+        
+
+        marker_aefd20cfcf0bcae445bdb9c8f1c6f9a3.bindPopup(popup_7f3a4855988f99a381e35b8ad73671a2)
+        ;
+
+        
+    
+    
+            marker_aefd20cfcf0bcae445bdb9c8f1c6f9a3.bindTooltip(
+                `<div>
+                     C.L.R. James
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26ccd7abf668754dec0d2043bcd0363a = L.marker(
+                [18.48, -69.9],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_f669ba9b1921f6f87219d432d0a0b891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b62ab56c3935a0ab0e3128b1d745f43d = $(`<div id="html_b62ab56c3935a0ab0e3128b1d745f43d" style="width: 100.0%; height: 100.0%;"><b>Ochy Curiel</b><br>República Dominicana/Colômbia</div>`)[0];
+            popup_f669ba9b1921f6f87219d432d0a0b891.setContent(html_b62ab56c3935a0ab0e3128b1d745f43d);
+        
+
+        marker_26ccd7abf668754dec0d2043bcd0363a.bindPopup(popup_f669ba9b1921f6f87219d432d0a0b891)
+        ;
+
+        
+    
+    
+            marker_26ccd7abf668754dec0d2043bcd0363a.bindTooltip(
+                `<div>
+                     Ochy Curiel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bec92c481e046a12f55719cb368d401 = L.marker(
+                [38.72, -9.14],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_7298b3047e8ff21e8f538f2fb6cb5681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cb8ebef5490ce2d01cbd9512a1e4f16 = $(`<div id="html_6cb8ebef5490ce2d01cbd9512a1e4f16" style="width: 100.0%; height: 100.0%;"><b>Grada Kilomba</b><br>Portugal</div>`)[0];
+            popup_7298b3047e8ff21e8f538f2fb6cb5681.setContent(html_6cb8ebef5490ce2d01cbd9512a1e4f16);
+        
+
+        marker_2bec92c481e046a12f55719cb368d401.bindPopup(popup_7298b3047e8ff21e8f538f2fb6cb5681)
+        ;
+
+        
+    
+    
+            marker_2bec92c481e046a12f55719cb368d401.bindTooltip(
+                `<div>
+                     Grada Kilomba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e00bb7b6336236438d6c98bf245ee668 = L.marker(
+                [40.21, -8.42],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_10fa7a07550aaaa407b5119228bb4f78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c390c93a00f90c89ccbdea66056efeb = $(`<div id="html_9c390c93a00f90c89ccbdea66056efeb" style="width: 100.0%; height: 100.0%;"><b>Boaventura de Sousa Santos</b><br>Portugal</div>`)[0];
+            popup_10fa7a07550aaaa407b5119228bb4f78.setContent(html_9c390c93a00f90c89ccbdea66056efeb);
+        
+
+        marker_e00bb7b6336236438d6c98bf245ee668.bindPopup(popup_10fa7a07550aaaa407b5119228bb4f78)
+        ;
+
+        
+    
+    
+            marker_e00bb7b6336236438d6c98bf245ee668.bindTooltip(
+                `<div>
+                     Boaventura de Sousa Santos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0623be674c4508d55ac8e19b9882fb0e = L.marker(
+                [22.57, 88.36],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_528188634d3fcc46eb728ee9d6b8d991 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfefe46b3154bd3a385187b9cb134d28 = $(`<div id="html_bfefe46b3154bd3a385187b9cb134d28" style="width: 100.0%; height: 100.0%;"><b>Gayatri Chakravorty Spivak</b><br>Índia</div>`)[0];
+            popup_528188634d3fcc46eb728ee9d6b8d991.setContent(html_bfefe46b3154bd3a385187b9cb134d28);
+        
+
+        marker_0623be674c4508d55ac8e19b9882fb0e.bindPopup(popup_528188634d3fcc46eb728ee9d6b8d991)
+        ;
+
+        
+    
+    
+            marker_0623be674c4508d55ac8e19b9882fb0e.bindTooltip(
+                `<div>
+                     Gayatri Chakravorty Spivak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7aec9253d0215b0325189e53a9331338 = L.marker(
+                [3.14, 101.69],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_1f253879e666bec69686e82e24a1dc50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_727d83c11b69209b00343fc4033b96fc = $(`<div id="html_727d83c11b69209b00343fc4033b96fc" style="width: 100.0%; height: 100.0%;"><b>Syed Hussein Alatas</b><br>Malásia</div>`)[0];
+            popup_1f253879e666bec69686e82e24a1dc50.setContent(html_727d83c11b69209b00343fc4033b96fc);
+        
+
+        marker_7aec9253d0215b0325189e53a9331338.bindPopup(popup_1f253879e666bec69686e82e24a1dc50)
+        ;
+
+        
+    
+    
+            marker_7aec9253d0215b0325189e53a9331338.bindTooltip(
+                `<div>
+                     Syed Hussein Alatas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f75169bd40f747214ba20be3bf3eed8a = L.marker(
+                [28.61, 77.21],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_e6a0719c375e16421bbaa935fa43760c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54895a94d27b54b9b0f18a48dad2c92b = $(`<div id="html_54895a94d27b54b9b0f18a48dad2c92b" style="width: 100.0%; height: 100.0%;"><b>Ashis Nandy</b><br>Índia</div>`)[0];
+            popup_e6a0719c375e16421bbaa935fa43760c.setContent(html_54895a94d27b54b9b0f18a48dad2c92b);
+        
+
+        marker_f75169bd40f747214ba20be3bf3eed8a.bindPopup(popup_e6a0719c375e16421bbaa935fa43760c)
+        ;
+
+        
+    
+    
+            marker_f75169bd40f747214ba20be3bf3eed8a.bindTooltip(
+                `<div>
+                     Ashis Nandy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcf620cadac68a9b3187f896f8f7a2f7 = L.marker(
+                [30.06, 31.25],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_5ab8e803cb2418fe69966b8cf4664aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d474f64c3ae03524ef9eeadd456a5f9 = $(`<div id="html_5d474f64c3ae03524ef9eeadd456a5f9" style="width: 100.0%; height: 100.0%;"><b>Samir Amin</b><br>Egito</div>`)[0];
+            popup_5ab8e803cb2418fe69966b8cf4664aa2.setContent(html_5d474f64c3ae03524ef9eeadd456a5f9);
+        
+
+        marker_dcf620cadac68a9b3187f896f8f7a2f7.bindPopup(popup_5ab8e803cb2418fe69966b8cf4664aa2)
+        ;
+
+        
+    
+    
+            marker_dcf620cadac68a9b3187f896f8f7a2f7.bindTooltip(
+                `<div>
+                     Samir Amin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b3710065a31f9e843f7fea2ce825a8e = L.marker(
+                [-22.91, -43.2],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_e88342ddbf9d19ae78014fcac51f966f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4ee3cb59e98ed632b3985469eebd456 = $(`<div id="html_e4ee3cb59e98ed632b3985469eebd456" style="width: 100.0%; height: 100.0%;"><b>Lélia Gonzalez</b><br>Brasil</div>`)[0];
+            popup_e88342ddbf9d19ae78014fcac51f966f.setContent(html_e4ee3cb59e98ed632b3985469eebd456);
+        
+
+        marker_8b3710065a31f9e843f7fea2ce825a8e.bindPopup(popup_e88342ddbf9d19ae78014fcac51f966f)
+        ;
+
+        
+    
+    
+            marker_8b3710065a31f9e843f7fea2ce825a8e.bindTooltip(
+                `<div>
+                     Lélia Gonzalez
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4d47b16bac24829e1fe6a12a25cc1c1 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_985461706587cfb0e1886cdd6e8bded3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_161006a214931f09f713c659821c365b = $(`<div id="html_161006a214931f09f713c659821c365b" style="width: 100.0%; height: 100.0%;"><b>Sueli Carneiro</b><br>Brasil</div>`)[0];
+            popup_985461706587cfb0e1886cdd6e8bded3.setContent(html_161006a214931f09f713c659821c365b);
+        
+
+        marker_a4d47b16bac24829e1fe6a12a25cc1c1.bindPopup(popup_985461706587cfb0e1886cdd6e8bded3)
+        ;
+
+        
+    
+    
+            marker_a4d47b16bac24829e1fe6a12a25cc1c1.bindTooltip(
+                `<div>
+                     Sueli Carneiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_485a339c91d5fa2c8c4878c934668fed = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_45b3b203a575f0300c913cdd1361f40c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dec05104cd13d1e41cc37d9628e3c40e = $(`<div id="html_dec05104cd13d1e41cc37d9628e3c40e" style="width: 100.0%; height: 100.0%;"><b>Silvio Almeida</b><br>Brasil</div>`)[0];
+            popup_45b3b203a575f0300c913cdd1361f40c.setContent(html_dec05104cd13d1e41cc37d9628e3c40e);
+        
+
+        marker_485a339c91d5fa2c8c4878c934668fed.bindPopup(popup_45b3b203a575f0300c913cdd1361f40c)
+        ;
+
+        
+    
+    
+            marker_485a339c91d5fa2c8c4878c934668fed.bindTooltip(
+                `<div>
+                     Silvio Almeida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17d60979df9333545504049c5372af49 = L.marker(
+                [-9.66, -36.68],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_8bace601d454f2911b60affeaaa0cd79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_892661b9f1e5838691f5eb31e7ab0164 = $(`<div id="html_892661b9f1e5838691f5eb31e7ab0164" style="width: 100.0%; height: 100.0%;"><b>Beatriz Nascimento</b><br>Brasil</div>`)[0];
+            popup_8bace601d454f2911b60affeaaa0cd79.setContent(html_892661b9f1e5838691f5eb31e7ab0164);
+        
+
+        marker_17d60979df9333545504049c5372af49.bindPopup(popup_8bace601d454f2911b60affeaaa0cd79)
+        ;
+
+        
+    
+    
+            marker_17d60979df9333545504049c5372af49.bindTooltip(
+                `<div>
+                     Beatriz Nascimento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4879f62ea4664d113276afe3dffe18c = L.marker(
+                [-21.75, -41.32],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_445d2b23854d172706f8a46e143cf984 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7ce93c7cf3788638f54d3706e0e6c8b = $(`<div id="html_b7ce93c7cf3788638f54d3706e0e6c8b" style="width: 100.0%; height: 100.0%;"><b>Abdias do Nascimento</b><br>Brasil</div>`)[0];
+            popup_445d2b23854d172706f8a46e143cf984.setContent(html_b7ce93c7cf3788638f54d3706e0e6c8b);
+        
+
+        marker_a4879f62ea4664d113276afe3dffe18c.bindPopup(popup_445d2b23854d172706f8a46e143cf984)
+        ;
+
+        
+    
+    
+            marker_a4879f62ea4664d113276afe3dffe18c.bindTooltip(
+                `<div>
+                     Abdias do Nascimento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f83bfca164c7946d2fbfa09cd8c00b7 = L.marker(
+                [-21.17, -47.81],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_96b74d6f1e19bf8ea914a5a7cc761a3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2e8ddd24ad945053dc9d5d10732f0fe = $(`<div id="html_d2e8ddd24ad945053dc9d5d10732f0fe" style="width: 100.0%; height: 100.0%;"><b>Clóvis Moura</b><br>Brasil</div>`)[0];
+            popup_96b74d6f1e19bf8ea914a5a7cc761a3a.setContent(html_d2e8ddd24ad945053dc9d5d10732f0fe);
+        
+
+        marker_1f83bfca164c7946d2fbfa09cd8c00b7.bindPopup(popup_96b74d6f1e19bf8ea914a5a7cc761a3a)
+        ;
+
+        
+    
+    
+            marker_1f83bfca164c7946d2fbfa09cd8c00b7.bindTooltip(
+                `<div>
+                     Clóvis Moura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3946925388e6a5f628316c7b6311d72e = L.marker(
+                [-22.91, -43.2],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_af7abf9fb9a3b1ce339293ac2207d3a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3149c72be3494df60ccc2c2272b4cba = $(`<div id="html_d3149c72be3494df60ccc2c2272b4cba" style="width: 100.0%; height: 100.0%;"><b>Katiúscia Ribeiro</b><br>Brasil</div>`)[0];
+            popup_af7abf9fb9a3b1ce339293ac2207d3a7.setContent(html_d3149c72be3494df60ccc2c2272b4cba);
+        
+
+        marker_3946925388e6a5f628316c7b6311d72e.bindPopup(popup_af7abf9fb9a3b1ce339293ac2207d3a7)
+        ;
+
+        
+    
+    
+            marker_3946925388e6a5f628316c7b6311d72e.bindTooltip(
+                `<div>
+                     Katiúscia Ribeiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb7cf2e72cbaeb4d0fb171221708e8d8 = L.marker(
+                [-22.91, -43.2],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_00439c14bf2cf29d458cae4e4c777ceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cedd8ba9e94f72a3ca728a0b576c5e3 = $(`<div id="html_8cedd8ba9e94f72a3ca728a0b576c5e3" style="width: 100.0%; height: 100.0%;"><b>Renato Nogueira</b><br>Brasil</div>`)[0];
+            popup_00439c14bf2cf29d458cae4e4c777ceb.setContent(html_8cedd8ba9e94f72a3ca728a0b576c5e3);
+        
+
+        marker_cb7cf2e72cbaeb4d0fb171221708e8d8.bindPopup(popup_00439c14bf2cf29d458cae4e4c777ceb)
+        ;
+
+        
+    
+    
+            marker_cb7cf2e72cbaeb4d0fb171221708e8d8.bindTooltip(
+                `<div>
+                     Renato Nogueira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29020cae465abdec4d868f83f39ba484 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_4b6aed49bdea8917ce0dfaf203f04af9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4caca8a654635a392f2102f1fd03c091 = $(`<div id="html_4caca8a654635a392f2102f1fd03c091" style="width: 100.0%; height: 100.0%;"><b>Cida Bento</b><br>Brasil</div>`)[0];
+            popup_4b6aed49bdea8917ce0dfaf203f04af9.setContent(html_4caca8a654635a392f2102f1fd03c091);
+        
+
+        marker_29020cae465abdec4d868f83f39ba484.bindPopup(popup_4b6aed49bdea8917ce0dfaf203f04af9)
+        ;
+
+        
+    
+    
+            marker_29020cae465abdec4d868f83f39ba484.bindTooltip(
+                `<div>
+                     Cida Bento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f099dd3fdf53b8278c90b0bcc18f4a0a = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_619f3451decb19b2709bfc3ce1c1e619 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3375e05c9445a050f4d850dc38a9516 = $(`<div id="html_e3375e05c9445a050f4d850dc38a9516" style="width: 100.0%; height: 100.0%;"><b>Neusa Santos Souza</b><br>Brasil</div>`)[0];
+            popup_619f3451decb19b2709bfc3ce1c1e619.setContent(html_e3375e05c9445a050f4d850dc38a9516);
+        
+
+        marker_f099dd3fdf53b8278c90b0bcc18f4a0a.bindPopup(popup_619f3451decb19b2709bfc3ce1c1e619)
+        ;
+
+        
+    
+    
+            marker_f099dd3fdf53b8278c90b0bcc18f4a0a.bindTooltip(
+                `<div>
+                     Neusa Santos Souza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eba173d3f9e4fdd61e01b9126ac8bd32 = L.marker(
+                [40.0, -75.16],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_381c780a783507b7173672f5e74b9d95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79eae14e6b1a4eadc48c279a8721116f = $(`<div id="html_79eae14e6b1a4eadc48c279a8721116f" style="width: 100.0%; height: 100.0%;"><b>Molefi Kete Asante</b><br>EUA</div>`)[0];
+            popup_381c780a783507b7173672f5e74b9d95.setContent(html_79eae14e6b1a4eadc48c279a8721116f);
+        
+
+        marker_eba173d3f9e4fdd61e01b9126ac8bd32.bindPopup(popup_381c780a783507b7173672f5e74b9d95)
+        ;
+
+        
+    
+    
+            marker_eba173d3f9e4fdd61e01b9126ac8bd32.bindTooltip(
+                `<div>
+                     Molefi Kete Asante
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a777b1351853bc42b95301402a2bb08 = L.marker(
+                [37.76, -84.83],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_756c15581a3bcbb2aa324fe967019b83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4b9c40822e1e5b872f4d58a6c5d2565 = $(`<div id="html_a4b9c40822e1e5b872f4d58a6c5d2565" style="width: 100.0%; height: 100.0%;"><b>bell hooks</b><br>EUA</div>`)[0];
+            popup_756c15581a3bcbb2aa324fe967019b83.setContent(html_a4b9c40822e1e5b872f4d58a6c5d2565);
+        
+
+        marker_9a777b1351853bc42b95301402a2bb08.bindPopup(popup_756c15581a3bcbb2aa324fe967019b83)
+        ;
+
+        
+    
+    
+            marker_9a777b1351853bc42b95301402a2bb08.bindTooltip(
+                `<div>
+                     bell hooks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f390008c21fca9c04c9eb17f22239005 = L.marker(
+                [39.0, -77.04],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_40e3eb2ad0b814f637c87f29db34a327 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_691d396a5fd6dd67a754a4e48b0fd35b = $(`<div id="html_691d396a5fd6dd67a754a4e48b0fd35b" style="width: 100.0%; height: 100.0%;"><b>Patricia Hill Collins</b><br>EUA</div>`)[0];
+            popup_40e3eb2ad0b814f637c87f29db34a327.setContent(html_691d396a5fd6dd67a754a4e48b0fd35b);
+        
+
+        marker_f390008c21fca9c04c9eb17f22239005.bindPopup(popup_40e3eb2ad0b814f637c87f29db34a327)
+        ;
+
+        
+    
+    
+            marker_f390008c21fca9c04c9eb17f22239005.bindTooltip(
+                `<div>
+                     Patricia Hill Collins
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d52bfd9c136e7827146c5e742b2bed6 = L.marker(
+                [37.34, -121.89],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_7d36b165355b3c203a8de374ab35f23c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59aec2f418762feb12a683aead12d583 = $(`<div id="html_59aec2f418762feb12a683aead12d583" style="width: 100.0%; height: 100.0%;"><b>Angela Davis</b><br>EUA</div>`)[0];
+            popup_7d36b165355b3c203a8de374ab35f23c.setContent(html_59aec2f418762feb12a683aead12d583);
+        
+
+        marker_0d52bfd9c136e7827146c5e742b2bed6.bindPopup(popup_7d36b165355b3c203a8de374ab35f23c)
+        ;
+
+        
+    
+    
+            marker_0d52bfd9c136e7827146c5e742b2bed6.bindTooltip(
+                `<div>
+                     Angela Davis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dfc78eb5812de6e2ad434ad7a12d639 = L.marker(
+                [14.61, -61.07],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_147cd4cd23a9618b0af34699b7d586c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fd9aefee687ffeea1d3c96d17f85ef6 = $(`<div id="html_2fd9aefee687ffeea1d3c96d17f85ef6" style="width: 100.0%; height: 100.0%;"><b>Aimé Césaire</b><br>Martinica</div>`)[0];
+            popup_147cd4cd23a9618b0af34699b7d586c4.setContent(html_2fd9aefee687ffeea1d3c96d17f85ef6);
+        
+
+        marker_9dfc78eb5812de6e2ad434ad7a12d639.bindPopup(popup_147cd4cd23a9618b0af34699b7d586c4)
+        ;
+
+        
+    
+    
+            marker_9dfc78eb5812de6e2ad434ad7a12d639.bindTooltip(
+                `<div>
+                     Aimé Césaire
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f245da40efe8df8afd6a0d870827e429 = L.marker(
+                [18.02, -76.8],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_80099fcf8b9070912035b67ebc2b76c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90e37230f31735b3c8da9df6c3ff2479 = $(`<div id="html_90e37230f31735b3c8da9df6c3ff2479" style="width: 100.0%; height: 100.0%;"><b>Stuart Hall</b><br>Jamaica/Reino Unido</div>`)[0];
+            popup_80099fcf8b9070912035b67ebc2b76c7.setContent(html_90e37230f31735b3c8da9df6c3ff2479);
+        
+
+        marker_f245da40efe8df8afd6a0d870827e429.bindPopup(popup_80099fcf8b9070912035b67ebc2b76c7)
+        ;
+
+        
+    
+    
+            marker_f245da40efe8df8afd6a0d870827e429.bindTooltip(
+                `<div>
+                     Stuart Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb390069e4ac3e0a7d11139c9c85363d = L.marker(
+                [51.51, -0.13],
+                {}
+            ).addTo(marker_cluster_4e60f15f1175ad8f4f094a8395d3a32a);
+        
+    
+        var popup_3f0fb61bf6a994719256d909dd8114ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_981650a7e388db7fef2606c18fa8ddf6 = $(`<div id="html_981650a7e388db7fef2606c18fa8ddf6" style="width: 100.0%; height: 100.0%;"><b>Paul Gilroy</b><br>Reino Unido</div>`)[0];
+            popup_3f0fb61bf6a994719256d909dd8114ee.setContent(html_981650a7e388db7fef2606c18fa8ddf6);
+        
+
+        marker_fb390069e4ac3e0a7d11139c9c85363d.bindPopup(popup_3f0fb61bf6a994719256d909dd8114ee)
+        ;
+
+        
+    
+    
+            marker_fb390069e4ac3e0a7d11139c9c85363d.bindTooltip(
+                `<div>
+                     Paul Gilroy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
